@@ -8,7 +8,7 @@ int main(int argc, char** argv) {
         return EXIT_FAILURE;
     }
 
-    InputReader input{argv[1]};
-    
+    FileReader input{argv[1]};
+
     return EXIT_SUCCESS;
 }
