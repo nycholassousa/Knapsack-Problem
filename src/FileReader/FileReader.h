@@ -6,11 +6,13 @@
 #include <fstream>
 #include <vector>
 
-class FileReader {
-private:
-    std::fstream* file_;
-public:
-    FileReader(const std::string& file_name);
+class FileReader
+{
+  private:
+    std::fstream *file_;
+
+  public:
+    FileReader(const std::string &file_name);
     ~FileReader();
 };
 
