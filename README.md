@@ -15,5 +15,11 @@ $ make
 ## Executando o Código
 
 ```sh
-$ ./Knapsack PATH_OF_THE_SAMPLE
+$ ./bin/Knapsack SAMPLE_PATH
+```
+
+Exemplo: 
+
+```sh
+$ ./bin/Knapsack samples/mochila01.txt
 ```
